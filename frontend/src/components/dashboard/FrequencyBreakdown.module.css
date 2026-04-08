@@ -1,0 +1,57 @@
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 1rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 90px 1fr 100px 50px;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.label {
+  font-size: 0.85rem;
+  color: #444;
+}
+
+.barWrap {
+  height: 10px;
+  background: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.4s ease;
+}
+
+.amount {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: right;
+  color: #1a1a2e;
+}
+
+.pct {
+  font-size: 0.8rem;
+  color: #888;
+  text-align: right;
+}
+
+.empty {
+  color: #999;
+  font-size: 0.9rem;
+}

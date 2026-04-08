@@ -1,0 +1,10 @@
+.wrapper {
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
